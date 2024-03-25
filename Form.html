@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <style>
+        table{
+            border:5px solid rgb(100, 0, 125);
+            width:500px;
+            height:300px;
+            margin:auto;
+        }
+        td,th{
+            background-color: cadetblue;
+            color:black;
+            padding: 20px;
+        }
+        caption{
+            font-weight: bolder;
+            font-size: 2em;
+            
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Employee Form</caption>
+
+    <form action="success.html">
+        <tr>
+
+    <td><label>First Name:</label></td>
+    <td><input type="text"name="First Name"value="" placeholder="First Name"required></td></tr><br>
+    <tr><td><label>Last Name:</label></td>
+    <td><input type="text"name="Last Name"value="" placeholder="Last Name"required></td></tr><br>
+    <tr><td><label>Address:</label>
+    <td><textarea row="3" cols="20"place holder="Address">Bangalore</textarea></td></tr><br>
+    <tr><td><label>Phone No:</label></td>
+    <td><input type="number"name="Phone No"value="" placeholder="Phone No"required></td></tr><br>
+    <tr><td><label>Email ID:</label></td>
+    <td><input type="email"name="Email ID"value="" placeholder="Email ID"></td></tr><br>
+    <tr><td><label>Gender</label></td>
+    <td><input type="radio" name="Gender" value="male">male
+    <input type="radio" name="Gender" value="female" required>female</td></tr><br>
+    <tr><td><label>Language:</label></td>
+    <td><input type="checkbox"name="Language"value="Tamil">Tamil
+    <input type="checkbox"name="Language"value="English">English
+    <input type="checkbox"name="Language"value="Hindi">Hindi</td></tr><br>
+    <tr><td><label>Qualification:</label></td>
+    <td><select>
+        <option>select</option>
+        <option>B.Sc</option>
+        <option>M.Sc</option>
+        <option>MCA</option>
+        <option>B.Tech</option>
+        <option>M.Tech</option>
+        <option>B.Com</option>
+        <option>B.E</option>
+    </select></td></tr><br>
+    <tr colspan="2"><td></td><td><input type="submit"value="Register"></td></tr>
+</form>
+</table>
+    
+</body>
+</html>
