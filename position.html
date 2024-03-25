@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: chartreuse;
+        }
+        .static{
+            background-color: bisque;
+            width: 400px;
+            height: 150px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid cyan;
+            position: static;
+            top: 20px;
+
+            
+        
+        }
+        .relative{
+            background-color: yellow;
+            width: 400px;
+            height: 150px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid cyan;
+            position: relative;
+            top: 20px;
+        }
+        .absolute{
+            background-color: red;
+            width: 400px;
+            height: 150px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid cyan;
+            position: absolute;
+            top: 500px;
+            left: 100px;
+        }
+        .fixed{
+            background-color: violet;
+            width: 400px;
+            height: 150px;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid cyan;
+            position: fixed;
+            top: 200px;
+            left: 100px;
+        }
+        div{
+            width: 500px;
+            height: 550px;
+            background-color: aqua;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <div class="static">
+            <h1 style="color: blueviolet;">Port<span>Folio</span></h1>
+
+        </div>
+        <div class="relative">
+            <h1 style="color: blueviolet;">Port<span>Folio</span></h1>
+
+        </div>
+        <div class="absolute">
+            <h1 style="color: blueviolet;">Port<span>Folio</span></h1>
+
+        </div>
+        <div class="fixed">
+            <h1 style="color: blueviolet;">Port<span>Folio</span></h1>
+
+        </div>
+        
+    </div>
+    
+</body>
+</html>

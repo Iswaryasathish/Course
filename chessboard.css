@@ -1,0 +1,23 @@
+.main
+{
+    height: 800px;
+    width: 800px;
+    border: 5px solid black;
+    margin: 20%;
+    padding: 2px;
+    
+}
+.pink{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: palevioletred;
+}
+.black{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: black;
+}

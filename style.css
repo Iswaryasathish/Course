@@ -1,0 +1,43 @@
+header
+{
+    text-align: center;
+    height:100px;
+    background-color: bisque;
+    padding: 10px;
+    border: 5px groove brown;
+}
+/*class selector*/
+.nav{
+    width: 500px;
+    height: 250px;
+    background-color: cadetblue;
+    display: flex;
+    float: left;
+}
+.nav ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.article{
+    height: 250px;
+    background-color: transparent;
+    text-align: left;
+    overflow: scroll;
+}
+#section{
+    display: flex;
+    padding: 10px;
+}
+.footer{
+    text-align: center;
+    height: 100px;
+    margin: -15px;
+    padding: 10px;
+    border: 5px groove brown;
+    background-color: bisque;
+
+}
+*
+{
+    font-family: verdena;
+}

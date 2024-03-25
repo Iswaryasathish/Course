@@ -1,0 +1,55 @@
+body{
+    background-image: url('https://images.prismic.io//intuzwebsite/d394de11-2b7f-4a72-a3e0-c876f7356a40_Main.png?w=1200&q=75&auto=format,compress&fm=png8');   
+}
+header{
+    color: purple;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+header .nav a{
+    color:purple;
+}
+.nav{
+    float: right;
+    justify-content:right;
+    margin-left: 500px;
+    text-align: right;
+}
+#section{
+    margin: 90px;
+    color: white;
+    margin-top: 180px;   
+}
+#section p{
+    font-size: 17px;   
+}
+.icon a{
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 60%;   
+    padding: 7px;
+}
+.icon{
+    margin: 90px;
+    margin-top: 20px;  
+    display: flex;
+    display: inline;     
+}
+.footer {
+    margin: 90px;
+    color: cyan;
+    margin-top: 20px;
+    display: flex;    
+}
+button{
+    background-color: cyan;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    
+}
